@@ -1,0 +1,54 @@
+.low-usage {
+  color: green;
+}
+
+.medium-usage {
+  color: black;
+}
+
+.high-usage {
+  color: red;
+}
+
+.nineties2 {
+  height: 100px;
+  width: 420px;
+}
+
+body {
+  background-image: url("https://background-tiles.com/overview/orange/textures/large/5001.png");
+  background-repeat: repeat;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  zoom: 100%;
+}
+
+h1, h3 {
+  font-family: 'comic sans ms', sans-serif;
+  padding: 5px;
+}
+
+body {
+  text-align: center;
+}
+
+button {
+  font-family: 'comic sans ms', sans-serif;
+  margin:5px;
+  height: 50px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.normal {
+  width: 160px;
+}
+
+.psm {
+  width: 75px;
+}

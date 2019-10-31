@@ -1,0 +1,43 @@
+.low-usage {
+  color: green;
+}
+
+.medium-usage {
+  color: black;
+}
+
+.high-usage {
+  color: red;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  zoom: 150%;
+}
+
+h1, h3 {
+  font-family: 'Catamaran', sans-serif;
+  padding: 5px;
+}
+
+body {
+  text-align: center;
+}
+
+button {
+  margin:5px;
+  height: 50px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.normal {
+  width: 160px;
+}
+
+.psm {
+  width: 75px;
+}
